@@ -1,0 +1,25 @@
+/MyCardShares-Vending-Machine
+│
+├── /client              # Frontend code
+│   ├── /src
+│   │   ├── /components  # Reusable UI components
+│   │   ├── /pages       # Main pages (Home, Vending Machine, Profile)
+│   │   ├── /assets      # Images, animations, and styles
+│   │   └── /utils       # Helper functions
+│   └── package.json     # Frontend dependencies
+│
+├── /server              # Backend code
+│   ├── /routes          # API endpoints
+│   ├── /models          # Database schemas
+│   ├── /controllers     # Business logic
+│   ├── /middleware      # Authentication and validation
+│   └── server.js        # Entry point
+│
+├── /docs                # Documentation and assets
+│   ├── README.md        # Project overview
+│   └── API.md           # API documentation
+│
+├── /tests               # Test cases
+├── .env.example         # Environment variables (sample)
+├── docker-compose.yml   # Docker configuration (optional)
+└── README.md            # Repository details
